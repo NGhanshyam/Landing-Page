@@ -1,0 +1,36 @@
+	<div class="banner-img">
+    <img src="assets/img/banner.jpg" alt="banner">
+    <div class="main">
+        <div class="container">
+            <div class="contents">
+                <table style="width:100%">
+                    <tr>
+                      <td>Loan Amount:</td>
+                      <td><input type="number" [(ngModel)]="loanAmount" /></td>
+                    </tr>
+                    <tr>
+                      <td>Tenure in Months:</td>
+                      <td><input type="number" [(ngModel)]="tenure" /> </td>
+                    </tr>
+                    <tr>
+                      <td>interest:</td>
+                      <td><input type="number" [(ngModel)]="interest" /> </td>
+                    </tr>
+                    <tr>
+                      <td>EMI:</td>
+                      <td><input type="text" placeholder="{{ emi }}/rs"></td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td align="center"><button (click)="cal()">Calculate</button></td>
+                    </tr>
+                  </table>
+            </div>
+        </div>
+        </div>
+</div>
+
+
+
+
+
